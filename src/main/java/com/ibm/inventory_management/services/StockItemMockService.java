@@ -17,7 +17,7 @@ public class StockItemMockService implements StockItemApi {
     public List<StockItem> listStockItems() {
         return asList(
                 new StockItem("1")
-                        .withName("Item 1 devops test")
+                        .withName("Item 1")
                         .withStock(100)
                         .withPrice(10.5)
                         .withManufacturer("Sony"),
